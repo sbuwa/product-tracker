@@ -1,7 +1,7 @@
 import { Form, Input, Select, Button, Table } from 'antd'
 import React from 'react'
 import './Dashboard.scss'
-import dummyData from '../data-source.json'
+import dummyData from '../../data/data-source.json'
 
 const columnData = [
 	{

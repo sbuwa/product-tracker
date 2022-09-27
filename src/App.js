@@ -1,4 +1,5 @@
-import Dashboard from './components/Dashboard'
+import Dashboard from './components/Dashboard/Dashboard'
+import NotesSidebar from './components/NotesSidebar/NotesSidebar'
 import './App.scss'
 import { Layout } from 'antd'
 
@@ -11,7 +12,9 @@ function App() {
 				<Content>
 					<Dashboard />
 				</Content>
-				<Sider>Sider</Sider>
+				<Sider width={300}>
+					<NotesSidebar />
+				</Sider>
 			</Layout>
 		</div>
 	)
