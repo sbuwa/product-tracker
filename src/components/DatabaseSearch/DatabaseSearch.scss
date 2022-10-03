@@ -1,0 +1,17 @@
+.db-layout{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.form-container{
+    width: 400px;
+}
+
+.table-container{
+    // width: calc(100vw - 10rem);
+}

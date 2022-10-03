@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1890ff;
+}
+
+.login-container{
+    width: 30vw;
+    background-color: #04192d;
+    padding: 20px 40px;
+
+    h1{
+        color: #fff;
+    }
+}
